@@ -3,7 +3,8 @@
    ========================================================================== */
 .css-radio .css-button label {
   font-size: 1.35em;
-  color: #c69;
+  font-weight: bold;
+  color: #fff;
 }
 
 .css-radio .css-button .css-button-label-container {
@@ -11,16 +12,16 @@
 }
 
 .css-radio .css-button:hover label {
-  color: #036;
+  color: #9099a2;
 }
 
 .css-radio .css-button:hover .css-button-label-container {
-  border-color: #036;
+  border-color: #9099a2;
 }
 
 .css-radio .css-button input[type=radio]:checked ~ .css-button-label-container {
-  border-color: #036;
-  background-color:#036;
+  border-color: #9099a2;
+  background-color:#9099a2;
 }
 
 .css-radio .css-button input[type=radio]:checked ~ .css-button-label-container label {

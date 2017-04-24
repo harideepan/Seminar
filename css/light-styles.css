@@ -5,11 +5,16 @@
 @import url('http://fonts.googleapis.com/css?family=Lato');
 html, body {
   font-family:'Lato', sans-serif;
-  background-color: #dadbdf;
+  background: #77c9d4; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top,  #25c481, #25b7c4); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left top,  #25c481, #25b7c4); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(left top,  #25c481, #25b7c4); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(left top,  #25c481, #25b7c4);
+ 
 }
 
 .header-container {
-  background-color: #036;
+  background-color: #015249;
   border-bottom-color: white;
   color: rgba(255, 255, 255, 0.75);
 }
@@ -22,10 +27,11 @@ html, body {
 .item-description {
   font-weight: bold;
   font-size: 125%;
+  color:black;
 }
 
 .item table {
-		color: #eee;
+	color: #eee;
 }
 
 .form-item-container .button {
@@ -63,11 +69,11 @@ input[type=submit]:hover
 }
 .subject-select-container
 {
-   border-color: #c69;
+   border-color: #9099a2;
 }
 .subjectselect
 {
-   color: #c69;
+   color: #9099a2;
    font-size: 1.35em;
    background-color: transparent;
    background-image: url("../img/Select.png");
