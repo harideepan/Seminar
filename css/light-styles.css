@@ -21,7 +21,7 @@ html, body {
 .item-description {
   font-weight: bold;
   font-size: 125%;
-  color:#c9c9c9;
+  color:#3fb0ac;
 }
 
 .item table {
@@ -46,8 +46,8 @@ table th{
 }
 
 table td{
-  border-color: transparent;
-  background-color:  #b3c2bf;
+  color:#000;
+  //background-color:  #b3c2bf;
 }
 
 input[type=submit]
