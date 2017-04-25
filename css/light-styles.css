@@ -5,17 +5,11 @@
 @import url('http://fonts.googleapis.com/css?family=Lato');
 html, body {
   font-family:'Lato', sans-serif;
-  background: #77c9d4; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top,  #25c481, #25b7c4); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(left top,  #25c481, #25b7c4); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(left top,  #25c481, #25b7c4); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(left top,  #25c481, #25b7c4);
- 
+  background-color: #e9ece5;
 }
 
 .header-container {
-  background-color: #015249;
-  border-bottom-color: white;
+  background: #c0dfd9; /* For browsers that do not support gradients */
   color: rgba(255, 255, 255, 0.75);
 }
 
@@ -27,11 +21,11 @@ html, body {
 .item-description {
   font-weight: bold;
   font-size: 125%;
-  color:black;
+  color:#c9c9c9;
 }
 
 .item table {
-	color: #eee;
+		color: #eee;
 }
 
 .form-item-container .button {
@@ -43,17 +37,17 @@ select {
 }
 
 table {
-  border-color: #036;
+  border-color: #3b3a36;
 }
 
 table th{
-  border-color: #036;
-  background-color:  #036;
+  border-color: #3b3a36;
+  background-color:  #3b3a36;
 }
 
 table td{
-  border-color: #c69;
-  background-color:  #c69;
+  border-color: transparent;
+  background-color:  #b3c2bf;
 }
 
 input[type=submit]
@@ -69,15 +63,50 @@ input[type=submit]:hover
 }
 .subject-select-container
 {
-   border-color: #9099a2;
+   border-color: #9ad3de;
 }
 .subjectselect
 {
-   color: #9099a2;
+   color: #9ad3de;
    font-size: 1.35em;
    background-color: transparent;
    background-image: url("../img/Select.png");
    background-position: 87% center;
    background-repeat: no-repeat;
    -webkit-appearance: button;  
+}
+
+.header img
+{
+ float:left;
+ width:100px;
+ height:100px;
+ margin:10px; 
+ margin-left:110px;
+}
+.header h1
+{
+ position:relative;
+ font-size:2.6em;
+ margin-top:20px;
+ margin-bottom:15px;
+ margin-left:100px;
+ margin-right:100px;
+ text-align:center;
+}
+.header h3
+{
+ margin-top:0px;
+ margin-bottom:0px;
+ margin-left:100px;
+ margin-right:100px;
+ text-align:center;
+}
+.header h5
+{
+ margin-top:0px;
+ margin-bottom:0px;
+ margin-left:100px;
+ margin-right:100px;
+ text-align:center;
 }
